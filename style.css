@@ -92,10 +92,12 @@ body {
     transform: translate(0,-50%);
 }
 #hero-left #elem{
-    /* min-width: 50%; */
+    
     height: 13vh;
     overflow: hidden;
     position: relative;
+    /* background: green; */
+    padding:0 30vh ;
 }
 
 #hero-left #elem>h1:nth-child(1){
@@ -105,7 +107,7 @@ body {
 #hero-left #elem>h1{
     font-family: "kajiro";
     color: white;
-    font-size: 7vw;
+    font-size: 8vw;
     letter-spacing: 2px;
     font-weight: 400;
     line-height: 1;
